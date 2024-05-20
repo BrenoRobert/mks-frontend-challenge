@@ -3,9 +3,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 19px;
+}
+
 body {
   margin: 0;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #F9F9F9;
+
 }
