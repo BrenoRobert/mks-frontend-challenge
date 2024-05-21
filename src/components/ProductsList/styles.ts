@@ -8,7 +8,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  padding: 120px 170px
+  padding: 120px 300px
 `
 
 export const ProductsListWrapper = styled.ul`
