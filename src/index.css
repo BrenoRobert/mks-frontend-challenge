@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -13,6 +14,5 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #F9F9F9;
-
+  background-color: #f9f9f9;
 }

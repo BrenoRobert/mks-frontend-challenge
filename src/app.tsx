@@ -4,6 +4,7 @@ import { theme } from './global/theme';
 import { Footer } from './components/Footer';
 import { Layout } from './components/Layout';
 import { ProductsList } from './components/ProductsList';
+import { Checkout } from './components/Checkout';
 
 export function App() {
   return (
@@ -11,6 +12,7 @@ export function App() {
       <Layout>
         <Header />
         <ProductsList />
+        <Checkout  />
         <Footer />
       </Layout>
     </ThemeProvider>

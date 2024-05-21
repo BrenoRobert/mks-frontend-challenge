@@ -29,13 +29,14 @@ export const Container = styled.header`
     }
   }
 
-  button {
+  div:has(> span) {
     width: 90px;
     height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: ${(props) => props.theme.borderRadius}px;
+    background-color: ${(props) => props.theme.colors.white};
     border: none;
     cursor: pointer;
 
@@ -43,13 +44,14 @@ export const Container = styled.header`
       font-size: ${(props) => props.theme.font.size.default}px;
       font-weight: ${(props) => props.theme.font.weight.bold};
       font-family: ${(props) => props.theme.font.family}, sans-serif;
+      color: ${(props) => props.theme.colors.black};
       padding: 10px;
     }
   }
 `
 
 export const ShoppingCart = styled(TiShoppingCart)`
-  stroke: ${(props) => props.theme.colors.white};
+  fill: ${(props) => props.theme.colors.black};
   width: ${(props) => props.theme.font.size.md}px;
   height: ${(props) => props.theme.font.size.md}px;
 `
